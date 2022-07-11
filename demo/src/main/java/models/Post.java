@@ -3,7 +3,6 @@ package models;
 import javax.persistence.*;
 
 @Entity
-//@Access(value= AccessType.FIELD)
 public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
